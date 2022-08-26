@@ -1,0 +1,57 @@
+.analysis-graph {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+}
+
+.upper {
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+}
+
+.upper h4 {
+    font-size: 2rem;
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.upper p {
+    padding: .2rem;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.upper div {
+    padding: .8rem;
+}
+
+.details-list {
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.details-list-head, .details-list-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.analysis-graph-one {
+    padding: .7rem;
+    border: 1px solid #fe3dce96;
+    border-radius: 5px;
+    /* box-shadow: ; */
+}
+
+.per-anyslsis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lower {
+    text-align: center;
+    color: #f0f8ff;
+}

@@ -1,0 +1,68 @@
+.jumbotron-container {
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    flex: .55;
+    padding: 30px 50px;
+}
+
+.left h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    background: linear-gradient(45deg, #e6e5ea, #d9e0dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.left p {
+    margin-top: 12px; 
+    color: #e6e5ea;
+    margin-bottom: 14px;
+}
+
+.social-icon {
+    display: flex;
+}
+
+.right {
+    flex: .45;
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+}
+
+.whale {
+    width: 100%;
+    height: 500px;
+    padding: 30px 50px;
+    border: 1px solid #26afe6;
+    border-radius: 5px;
+}
+
+.social-icon {  
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon a {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.108);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-icon-banner {
+    padding: .4rem;
+    color: white!important;
+    font-size: 30px;
+}

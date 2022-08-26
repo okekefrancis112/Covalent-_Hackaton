@@ -1,0 +1,50 @@
+.list {
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #2b313a31;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.list h3 {
+    color: #f0f8ff;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.list-data-logo-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+}
+
+.list-body-container {
+    display: flex;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+    background-color: #0B111B;
+    color: #f0f8ff;
+}
+
+td a {
+    color: #f0f8ff;
+    display: flex;
+    align-items: center;
+}
+
+th {
+    padding: 14px 10px;
+}
+
+tr {
+    margin-bottom: 120px;
+}

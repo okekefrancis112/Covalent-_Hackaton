@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+.search-input {
+    position: relative;
+    
+}
+
+.search-input input {
+    padding: 6px 8px;
+    outline: none;
+    border: 0;
+    max-width: 270px;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.582);
+    color: rgba(255, 255, 255, 0.708);
+    font-family: "Montserrat";
+}
+
+.search-input input::placeholder {
+    color: rgba(255, 255, 255, 0.549);
+}
+
+.search-icon {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: rgba(255, 255, 255, 0.582);
+}
+
+.header h1 {
+    font-family: 'Montserrat';
+    background: linear-gradient(45deg, #09009f, #00ff95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
